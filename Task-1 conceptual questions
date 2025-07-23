@@ -1,0 +1,20 @@
+1. What is the difference between RNN and LSTM?
+RNNs remember past information using a hidden state but struggle with long sequences. LSTMs are
+improved RNNs with gates that help them remember information for longer, making them better for
+tasks like language modeling.
+
+2. What is the vanishing gradient problem, and how does LSTM solve it?
+The vanishing gradient problem makes it hard for RNNs to learn long-term patterns. LSTMs fix this
+using special gates that control what to keep or forget, helping them learn from long sequences.
+
+3. Explain the purpose of the Encoder-Decoder architecture.
+The encoder-decoder model is used to convert one sequence to another, like translating English to
+French. The encoder understands the input, and the decoder generates the output.
+
+4. In a sequence-to-sequence model, what are the roles of the encoder and decoder?
+The encoder reads the input and turns it into a summary. The decoder takes that summary and
+creates the output, one step at a time.
+
+5. How is attention different from a basic encoder-decoder model?
+Attention lets the decoder look at different parts of the input instead of just a fixed summary. This
+helps the model handle longer and more complex sequences better.
